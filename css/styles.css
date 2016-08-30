@@ -1,3 +1,59 @@
 body {
   font-family: 'Istok Web', sans-serif;
+  color: #3A4C5C;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 16px;
+}
+
+p.subheading {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+p {
+  font-size: 20px;
+}
+
+p.subheading {
+  font-size: 25px;
+}
+
+}
+
+@media (min-width: 992px) {
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 24px;
+}
+
+p.subheading {
+  font-size: 30px;
+}
+
 }
