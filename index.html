@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet" type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i" rel="stylesheet"> 
   <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
 
   <!-- CSS
@@ -48,7 +48,7 @@
 <button onclick="alertMe()">Try it for free</button>
 </div>
 
-<div class="container">
+<div class="container" id="benefits">
   <div class="row">
     <div class="col-xs-6 col-md-5 col-md-offset-1">
       <h2>Easy collaboration</h2>
@@ -95,7 +95,7 @@
 </div>
 
   <div class="container">
-    <h2 class="text-center">A 30 day free trial to find the right plan</h2>
+    <h2 class="text-center pricing-header">A 30 day free trial to find the right plan</h2>
 
   <div class="row">
     <div class="col-xs-12 col-sm-4">
@@ -103,8 +103,8 @@
         <h3>Casual</h3>
         <h2 class="pricing">FREE</h2>
         <p class="pricing-unit">forever<p>
-          <p>Up to 2 collaborators<br>2 GB of storage</p>
-          <button onclick="alertMe()">Start my free trial</button>
+          <p class="plan-benefits">Up to 2 collaborators<br>2 GB of storage</p>
+          <button class="pricing-cta" onclick="alertMe()">Start my free trial</button>
       </div>
     </div>
 
@@ -113,8 +113,8 @@
         <h3>Professional</h3>
         <h2 class="pricing">$5</h2>
         <p class="pricing-unit">per month<p>
-        <p>Up to 15 collaborators<br>5 GB of storage<br>Real-time collaboration</p>
-        <button onclick="alertMe()">Start my free trial</button>
+        <p class="plan-benefits">Up to 15 collaborators<br>5 GB of storage<br>Real-time collaboration</p>
+        <button class="pricing-cta" onclick="alertMe()">Start my free trial</button>
       </div>
     </div>
 
@@ -123,8 +123,8 @@
         <h3>Expert</h3>
         <h2 class="pricing">$10</h2>
         <p class="pricing-unit">per month<p>
-        <p>Unlimited collaborators<br>Unlimited storage<br>Real-time collaboration</p>
-        <button onclick="alertMe()">Start my free trial</button>
+        <p class="plan-benefits">Unlimited collaborators<br>Unlimited storage<br>Real-time collaboration</p>
+        <button class="pricing-cta" onclick="alertMe()">Start my free trial</button>
       </div>
     </div>
   </div>
@@ -132,9 +132,9 @@
   </div>
 
   <div class="text-center footer">
-   <i class="fa fw fa-facebook" onclick="alertMe()"></i>
-   <i class="fa fw fa-twitter" onclick="alertMe()"></i> 
-   <i class="fa fw fa-envelope" onclick="alertMe()"></i>  
+   <a href="#"><i class="fa fw fa-facebook" onclick="alertMe()"></i></a>
+   <a href="#"><i class="fa fw fa-twitter" onclick="alertMe()"></i></a>
+   <a href="#"><i class="fa fw fa-envelope" onclick="alertMe()"></i></a>  
    <p>© 2016 Jott.ly</p>
   </div>
 
