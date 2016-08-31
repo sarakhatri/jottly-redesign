@@ -3,6 +3,14 @@ body {
   color: #3A4C5C;
 }
 
+button {
+  background-color: #0070CC;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 10px;
+}
+
 h1 {
   font-size: 40px;
 }
@@ -12,12 +20,45 @@ h2 {
   margin-top: 0px;
 }
 
-p {
+button, p {
   font-size: 16px;
 }
 
 p.subheading {
   font-size: 20px;
+}
+
+h2.pricing {
+  color: #0070CC;
+}
+
+p.pricing-unit {
+  color: #ABB3B9;
+}
+
+.boxed {
+  border: 1px solid #ABB3B9;
+}
+
+.footer {
+  color: #ABB3B9;
+}
+
+.footer i {
+  font-size: 20px;
+}
+
+.row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blue-bg {
+  background-color: #E3F3FF;
+}
+
+.quote-speaker {
+  margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
@@ -29,7 +70,7 @@ h2 {
   font-size: 33px;
 }
 
-p {
+button, p {
   font-size: 20px;
 }
 
@@ -48,7 +89,12 @@ h2 {
   font-size: 40px;
 }
 
-p {
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button, p {
   font-size: 24px;
 }
 
