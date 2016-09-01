@@ -21,8 +21,12 @@ h2 {
   margin-top: 0px;
 }
 
-button, p {
+h3, button, p {
   font-size: 16px;
+}
+
+h3 {
+  font-weight: bold;
 }
 
 p.subheading {
@@ -32,6 +36,7 @@ p.subheading {
 
 p.quote {
   font-style: italic;
+  margin-top: 10px;
 }
 
 p.quote-speaker {
@@ -47,7 +52,7 @@ h2.pricing {
 
 p.pricing-unit {
   color: #ABB3B9;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
 p.plan-benefits {
@@ -104,12 +109,20 @@ h2 {
   font-size: 33px;
 }
 
-button, p {
+h3, button, p {
   font-size: 20px;
 }
 
 p.subheading {
   font-size: 25px;
+}
+
+p.quote {
+  margin-top: 0px;
+}
+
+p.pricing-unit {
+  margin-top: -10px;
 }
 
 .blue-bg {
@@ -125,8 +138,29 @@ p.subheading {
   margin-bottom: 50px;
 }
 
+.normal {
+  height: 385px;
+}
+
 #pop-out {
   margin-top: -30px;
+  height: 444px;
+}
+
+.pricing-cta.casual {
+  margin-top: 54px;
+}
+
+.pricing-cta.professional {
+  margin-top: 85px;
+}
+
+.pricing-cta.expert {
+  margin-top: 26px;
+}
+
+.pricing-header {
+  margin-bottom: 80px;
 }
 
 }
@@ -140,17 +174,24 @@ h2 {
   font-size: 40px;
 }
 
-h3 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-button, p {
+h3, button, p {
   font-size: 24px;
 }
 
 p.subheading {
   font-size: 30px;
+}
+
+.pricing-cta.casual {
+  margin-top: 25px;
+}
+
+.pricing-cta.professional {
+  margin-top: 50px;
+}
+
+.pricing-cta.expert {
+  margin-top: -9px;
 }
 
 }
