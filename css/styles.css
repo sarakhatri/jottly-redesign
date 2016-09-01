@@ -1,4 +1,4 @@
-body {
+body, h1, h2, h3, p {
   font-family: 'Istok Web', sans-serif;
   color: #3A4C5C;
 }
@@ -13,6 +13,7 @@ button {
 
 h1 {
   font-size: 40px;
+  margin-top: -9px;
 }
 
 h2 {
@@ -26,26 +27,50 @@ button, p {
 
 p.subheading {
   font-size: 20px;
+  margin-bottom: 15px;
+}
+
+p.quote {
+  font-style: italic;
+}
+
+p.quote-speaker {
+  margin-bottom: 0px;
+  color: #ABB3B9;
 }
 
 h2.pricing {
   color: #0070CC;
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 p.pricing-unit {
   color: #ABB3B9;
+  margin-top: -10px;
+}
+
+p.plan-benefits {
+  margin-top: 30px; 
+  margin-bottom: 40.5px;
 }
 
 .boxed {
   border: 1px solid #ABB3B9;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.footer {
+.footer p{
   color: #ABB3B9;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .footer i {
+  color: #ABB3B9;
   font-size: 20px;
+  padding: 10px;
 }
 
 .row {
@@ -57,8 +82,17 @@ p.pricing-unit {
   background-color: #E3F3FF;
 }
 
-.quote-speaker {
+.pricing-header {
+  margin-top: 70px;
   margin-bottom: 0px;
+}
+
+.pricing-cta {
+  margin-bottom: 21px;
+}
+
+#benefits {
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {
@@ -76,6 +110,19 @@ button, p {
 
 p.subheading {
   font-size: 25px;
+}
+
+.blue-bg {
+  margin-top: 20px;
+}
+
+#benefits {
+  margin-top: 50px;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 }
