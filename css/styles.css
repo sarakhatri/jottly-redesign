@@ -125,6 +125,10 @@ p.subheading {
   margin-bottom: 50px;
 }
 
+#pop-out {
+  margin-top: -30px;
+}
+
 }
 
 @media (min-width: 992px) {
